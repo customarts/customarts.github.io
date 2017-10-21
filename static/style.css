@@ -1,0 +1,68 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 70px;
+}
+
+.page-header {
+    text-align: center;
+}
+
+.caption {
+    text-align: center;
+}
+
+.container {
+  width: auto;
+  max-width: 800px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+    color: #444;
+
+}
+
+.content {
+    margin-bottom: 18px;
+}
+
+.footer { /* ensures footer content sticks to bottom of page */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.label {
+    font-size: 100%;
+    line-height:2;
+}
+
+.lead {
+    margin-bottom: 12px;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-default {
+    background-color: #f9f9f9;
+}
+
+.navbar-default .navbar-brand {
+    color: #444;
+    font-weight: 300;
+    font-size: 15pt;
+}
+
+.thumbnail {
+    border: 0px;
+}
